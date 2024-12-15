@@ -380,7 +380,7 @@ while program:
 
     else:
         os.system('cls')
-        print("input unrecognized.")
+        print("input unrecognized..")
         
     
     
