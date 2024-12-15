@@ -1,2 +1,3 @@
-for x in range(0,100):
-    print("hello")
+def act():
+    for x in range(0,100):
+        print("hello")

@@ -19,11 +19,37 @@ from challenge.code_challenge16 import cc as cc16
 
 ##import act
 ##from activity.activity1 import act as act1
+from activity.activity1 import act as act1
 from activity.activity2 import act as act2
+from activity.activity3 import act as act3
+from activity.activity4 import act as act4
+from activity.activity5 import act as act5
+from activity.activity6 import act as act6
+from activity.activity7 import act as act7
+from activity.activity8 import act as act8
+from activity.activity9 import act as act9
+from activity.activity10 import act as act10
+from activity.activity11 import act as act11
+from activity.activity12 import act as act12
+from activity.activity13 import act as act13
+from activity.activity14 import act as act14
+from activity.activity15 import act as act15
+from activity.activity16 import act as act16
+from activity.activity17 import act as act17
+from activity.activity18 import act as act18
+from activity.activity19 import act as act19
+from activity.activity20 import act as act20
+from activity.activity21 import act as act21
+from activity.activity22 import act as act22
+from activity.activity23 import act as act23
+from activity.activity24 import act as act24
+from activity.activity25 import act as act25
 
 
+##import extras
+from extras.ENCODER import encoder as enc
 
-##import target
+
 """people tell me these blocks of import look ugly but honestly they're so pretty to look at"""
 
 

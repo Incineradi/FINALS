@@ -1,6 +1,6 @@
+def act():
+    num= eval(input("enter length number lol: "))
 
-num= eval(input("enter length number lol: "))
-
-for x in range(0,num):
-    print("=",end="")
-print("*>-")
+    for x in range(0,num):
+        print("=",end="")
+    print("*>-")
