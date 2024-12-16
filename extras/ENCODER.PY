@@ -3,7 +3,20 @@ def encoder():
     import os
     program=True
     while program:
-        dep= eval(input("enter your number: "))
+        dep= input("enter your number: ")
+
+        """FILTER CODE THAT IM VERY PROUD I MADE"""
+        echo=dep
+        keep= "1234567890"
+        for filterer in keep.lower(): 
+            dep = dep.lower().replace(filterer,'')
+        for converter in dep:
+            echo= echo.lower().replace(converter,'')
+            if echo == "":
+                echo="0"
+        dep=int(echo)
+        """END OF THE FILTER CODE THAT IM VERY PROUD TO HAVE MADE"""
+
         fart= ((7*dep)+4) % 26
         print(fart)
         if dep == -1:

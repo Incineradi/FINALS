@@ -1,28 +1,41 @@
 def cc():
     print("INFO: code_challenge4 showcases the different operators of python and will calculate two inputs, similar to activity4.\n")
-    num1=eval(input("input first number: "))
-    num2=eval(input("input second number: "))
+    num1=input("input first number: ")
+    num2=input("input second number: ")
+            
 
-    sum=num1 + num2
+    """FILTER CODE THAT IM VERY PROUD I MADE"""
+    echo=num1
+    echo1=num2
+    keep= "1234567890"
+    for filterer in keep.lower(): 
+        num1 = num1.lower().replace(filterer,'')
+        num2 = num2.lower().replace(filterer,'')
+    for converter in num1:
+        echo= echo.lower().replace(converter,'')
+        if echo == "":
+            echo="0"
+    for converter in num2:
+        echo1= echo1.lower().replace(converter,'')
+        if echo1 == "":
+            echo1="0"
+    num1=int(echo)
+    num2=int(echo1)
+    """END OF THE FILTER CODE THAT IM VERY PROUD TO HAVE MADE"""
 
-    diff=num1 - num2
+    print()
+    sum= num1 + num2
+    diff= num1 - num2
+    prod= num1 * num2
+    quot= num1 / num2
+    exp= num1 ** num2
+    rem= num1 % num2
+    floor= num1 // num2
 
-    prod=num1 * num2
-
-    quot=num1 / num2
-
-    exp=num1 ** num2
-
-    rem=num1 % num2
-
-    floor=num1 // num2
-
-    print(
-    f"\nthe sum of { num1 } and { num2 } is { sum }",
-    f"\nthe difference of { num1 } and { num2 } is { diff }",
-    f"\nthe product of { num1 } and { num2 } is { prod }",
-    f"\nthe quotient of { num1 } and { num2 } is { quot }",
-    f"\n{ num1 } exponent by { num2 } is { exp }",
-    f"\nthe remainder of { num1 } and { num2 } is { rem }",
-    f"\nthe floor division of { num1 } and { num2 } is { floor }",
-    )
+    print(f"the sum of {num1} and {num2} is {sum}")
+    print(f"the difference of {num1} and {num2} is {diff}")
+    print(f"the product of {num1} and {num2} is {prod}")
+    print(f"the quotient of {num1} and {num2} is {quot}")
+    print(f"{num1} exponent by {num2} is {exp}")
+    print(f"the remainder of {num1} and {num2} is {rem}")
+    print(f"the floor division of {num1} and {num2} is {floor}")

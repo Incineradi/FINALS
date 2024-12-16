@@ -46,8 +46,12 @@ from activity.activity25 import act as act25
 
 
 ##import extras
-from extras.ENCODER import encoder as enc
+from extras.ENCODER import encoder
 from extras.BINARY import binary
+from extras.testing import filtertest
+from extras.filterer import f
+
+
 
 
 """people tell me these blocks of import look ugly but honestly they're so pretty to look at"""
@@ -57,42 +61,42 @@ def end():
     print("simulation ended.")
 ##for calling
 def ccn(c):
-    print(f"successfully imported code_challenge{c.replace('c','')}")
+    print(f"successfully imported code_challenge{c.lower().replace('c','')}")
 
 def actn(c):
-    print(f"successfully imported activity{c.replace('act','')}")
+    print(f"successfully imported activity{c.lower().replace('act','')}")
 
 def exn(c):
-    print(f"successfully imported extras{c.replace('ex','')}")
+    print(f"successfully imported extras{c.lower().replace('ex','')}")
 
 
 def actinf():
     print(
     "\nLIST of ACTIVITIES\n",
 
-    "\nACTIVITY 1: ",
-    "\nDescription: \n",
+    "\nACTIVITY 1: Hello world!",
+    "\nDescription: first activity.\n",
 
-    "\nACTIVITY 2: ",
-    "\nDescription: \n",
+    "\nACTIVITY 2: Division calculator",
+    "\nDescription: divides two inputs.\n",
 
-    "\nACTIVITY 3: ",
-    "\nDescription: \n",
+    "\nACTIVITY 3: Biodata",
+    "\nDescription: simulates a biodata. very long program, and often times very annoying during testing.\n",
 
-    "\nACTIVITY 4: ",
-    "\nDescription: \n",
+    "\nACTIVITY 4: Python operators",
+    "\nDescription: uses the different python operators to calculate two inputs. its a recap of code challenge 4.\n",
 
-    "\nACTIVITY 5: ",
-    "\nDescription: \n",
+    "\nACTIVITY 5: Fahrenheit to celsius",
+    "\nDescription: its a recap of code challenge 5.\n",
 
-    "\nACTIVITY 6: ",
-    "\nDescription: \n",
+    "\nACTIVITY 6: Addition assignment operator",
+    "\nDescription: utilizes +=, which adds onto and updates the variable itself.\n",
 
-    "\nACTIVITY 7: ",
-    "\nDescription: \n",
+    "\nACTIVITY 7: Gold ownership",
+    "\nDescription: utilizes if-else statements.\n",
 
-    "\nACTIVITY 8: ",
-    "\nDescription: \n",
+    "\nACTIVITY 8: Login simulator",
+    "\nDescription: also utilizes if-else statements. example provided when the program is opened.\n",
 
     "\nACTIVITY 9: ",
     "\nDescription: \n",
@@ -204,12 +208,17 @@ def exinf():
     print(
     "\nLIST of EXTRAS\n",
 
-    "\nEXTRA 1: ",
+    "\nEXTRA 1: Encoder",
     "\nDescription: \n",
 
-    "\nEXTRA 2: ",
+    "\nEXTRA 2: Binary",
     "\nDescription: \n",
 
+    "\nEXTRA 3: Char filter test program",
+    "\nDescription: \n",
+
+    "\nEXTRA 4: Char filter",
+    "\nDescription: \n",
     )
 
 def help():
@@ -224,7 +233,7 @@ def help():
     "\ntype 'cc(number)' to access any specific code challenges.",
     "\ntype 'cc info' for more info.\n",
 
-    "\nEXTRAS (1-2)",
+    "\nEXTRAS (1-4)",
     "\ntype 'ex(number)' to access any specific extras.",
     "\ntype 'ex info' for more info.\n",
 
@@ -526,14 +535,27 @@ while program:
         end()
     elif action.lower()=="ex1":
         os.system('cls')
-        actn(action)
-        enc()
+        exn(action)
+        encoder()
 
         end()
     elif action.lower()=="ex2":
         os.system('cls')
-        actn(action)
+        exn(action)
         binary()
+
+        end()
+    elif action.lower()=="ex3":
+        os.system('cls')
+        exn(action)
+        filtertest()
+
+        end()
+    elif action.lower()=="ex4":
+        os.system('cls')
+        exn(action)
+
+        f()
 
         end()
 

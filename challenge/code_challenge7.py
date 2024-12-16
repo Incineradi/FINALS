@@ -6,9 +6,19 @@ def cc():
   print("so relatable")
  else:
   name = input("enter your name: ")
-  age = eval(input("enter your age: "))
+  age = input("enter your age: ")
   ask = input("did you buy grocery (yes or no): ")
-
+  """FILTER CODE THAT IM VERY PROUD I MADE"""
+  echo=age
+  keep= "1234567890"
+  for filterer in keep.lower(): 
+      age = age.lower().replace(filterer,'')
+  for converter in age:
+      echo= echo.lower().replace(converter,'')
+      if echo == "":
+          echo="0"
+  age=int(echo)
+  """END OF THE FILTER CODE THAT IM VERY PROUD TO HAVE MADE"""
   ################################################################
   disc = "INACTIVE"
   if age > 59:
@@ -30,15 +40,32 @@ def cc():
   #####################################
     order = input("\nplease enter your purchased item's ID: ")
     print(f"you have ordered item {order}.")
-    amount = eval(input("\nlastly, please input the amount of money paid: "))
-    print(f"you handed {amount} pesos.")
+    amount = input("\nlastly, please input the amount of money paid: ")
   
+    """FILTER CODE THAT IM VERY PROUD I MADE"""
+    echo=amount
+    keep= "1234567890"
+    for filterer in keep.lower(): 
+      amount = amount.lower().replace(filterer,'')
+    for converter in amount:
+      echo= echo.lower().replace(converter,'')
+      if echo == "":
+        echo="0"
+    amount=int(echo)
+    """END OF THE FILTER CODE THAT IM VERY PROUD TO HAVE MADE"""
+
+
+    print(f"you handed {amount} pesos.")
+
+
     if order.lower() == "a":
       c+=1
     elif order.lower() == "b":
       c+=0.1
     elif order.lower() == "c" :
       c+=999
+    else:
+       print("it seems that your order isnt in the menu. could it be a misinput?")
     total = amount-c
     
     if age > 59 :
@@ -69,5 +96,3 @@ def cc():
     print("ok")
   else:
     print("input cannot be recognized. please make sure the input is one of the following options (yes/no).")
-
-cc()

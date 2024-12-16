@@ -4,7 +4,20 @@ def act():
     dll = input("\nare you a student of dll?: ")
 
     if dll.lower() =="yes":
-        yr=eval(input("\nwhat is your year level? (1-4): "))
+        yr=input("\nwhat is your year level? (1-4): ")
+
+        """FILTER CODE THAT IM VERY PROUD I MADE"""
+        echo=yr
+        keep= "1234567890"
+        for filterer in keep.lower(): 
+            yr = yr.lower().replace(filterer,'')
+        for converter in yr:
+            echo= echo.lower().replace(converter,'')
+            if echo == "":
+                echo="0"
+        yr=int(echo)
+        """END OF THE FILTER CODE THAT IM VERY PROUD TO HAVE MADE"""
+
         if yr == 1:
             print("Welcome to dll, freshman.")
         elif yr == 2:

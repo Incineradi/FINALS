@@ -7,13 +7,13 @@ def act():
  else:
   name = input("\nEnter name: ")
 
-  num = int(input("\nEnter number: "))
+  num = input("\nEnter number, whole number only: ")
 
   mail = input("\nEnter email: ")
 
   gender = input("\nEnter gender: ")
 
-  age = int(input("\nEnter age: "))
+  age = input("\nEnter age, whole number only: ")
 
   bday = input("\nEnter Birthdate: ")
 
@@ -37,11 +37,11 @@ def act():
 
   morning = input("\nWhat do you drink every morning?: ")
 
-  stretch = int(input("\nHow long does it take you to stretch before bed time? (in minutes): "))
+  stretch = input("\nHow long does it take you to stretch before bed time? (in minutes, whole number only): ")
 
-  hometime = int(input("\nWhat time do you generally get home? (24 hour format): "))
+  hometime = input("\nWhat time do you generally get home? (24 hour format, whole number only): ")
 
-  bedtime = int(input("\nWhat time do you generally go to bed? (24 hour format): "))
+  bedtime = input("\nWhat time do you generally go to bed? (24 hour format, whole number only): ")
 
   sleep = input("\nDo you make sure you get 8 hours of sleep? (YES or NO): ")
 
@@ -50,6 +50,50 @@ def act():
   baby = input("\nDo you experience fatigue and stress whenever you wake up in the morning? (YES or NO): ")
 
   checkup = input("\nWere you diagnosed with issues in your last check-up? (YES or NO): ")
+  
+  """FILTER CODE THAT IM VERY PROUD I MADE"""
+  echo=num
+  echo1=age
+  echo2=stretch
+  echo3=hometime
+  echo4=bedtime
+  keep= "1234567890"
+  for filterer in keep.lower(): 
+      num = num.lower().replace(filterer,'')
+      age = age.lower().replace(filterer,'')
+      stretch = stretch.lower().replace(filterer,'')
+      hometime = hometime.lower().replace(filterer,'')
+      bedtime = bedtime.lower().replace(filterer,'')
+  for converter in num:
+      echo= echo.lower().replace(converter,'')
+      if echo == "":
+        echo="0"
+  for converter in age:
+      echo1= echo1.lower().replace(converter,'')
+      if echo1 == "":
+        echo1="0"
+  for converter in stretch:
+      echo2= echo2.lower().replace(converter,'')
+      if echo2 == "":
+        echo2="0"
+  for converter in hometime:
+      echo3= echo3.lower().replace(converter,'')
+      if echo3 == "":
+        echo3="0"
+  for converter in bedtime:
+      echo4= echo4.lower().replace(converter,'')
+      if echo4 == "":
+        echo4="0"
+
+  num=int(echo)
+  age=int(echo1)
+  stretch=int(echo2)
+  hometime=int(echo3)
+  bedtime=int(echo4)
+
+  """END OF THE FILTER CODE THAT IM VERY PROUD TO HAVE MADE"""
+
+
 
 
 

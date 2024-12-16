@@ -1,12 +1,13 @@
 def act():
-    print("INFO: activity18 introduces for loop.\n")
-    num=eval(input("enter num: "))
-    num+=1
-    for x in range(1, 6):
-        for y in range(1, num):
-            for a in range(1, x+1):
-                print("*",end=" ")
-            for b in range(5, x, -1):
-                print(" ",end=" ")
-            print(end=" ")
-        print()
+    print("INFO: this program will continuously ask for a name until you input 'stop'.\n")
+    import os
+
+    the=True
+
+    
+    while the ==True:
+        act=input("enter a name: ")
+        if act.lower() =="stop":
+            print("program terminated")
+            break
+

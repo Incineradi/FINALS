@@ -1,11 +1,12 @@
 def act():
-    print("INFO: this program will continuously ask whether you wish for another triangle or not.\n")
+    print("INFO: this program will continuously ask for a name until you input 'stop'.\n")
     import os
 
-    the=True
+    program=True
 
-    act=input("enter a name: ")
-    while the ==True:
+    
+    while program ==True:
+        act=input("enter a name: ")
         if act.lower() =="stop":
             print("program terminated")
             break

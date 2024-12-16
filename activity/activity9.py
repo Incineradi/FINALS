@@ -1,6 +1,17 @@
+
 def act():
     print("INFO: this program identifies which age bracket you belong in.\n")
-    age = eval(input("\ntype age lol: "))
+    age = input("\ntype age lol: ")
+
+    echo=age
+    keep= "1234567890"
+    for filterer in keep.lower(): 
+        age = age.lower().replace(filterer,'')
+    for converter in age:
+        echo= echo.lower().replace(converter,'')
+        if echo == "":
+            echo="0"
+    age=int(echo)
 
     if age <1:
         print("invalid")
