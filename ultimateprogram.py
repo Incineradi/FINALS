@@ -62,6 +62,156 @@ def ccn(c):
 def actn(c):
     print(f"successfully imported activity{c.replace('act','')}")
 
+def exn(c):
+    print(f"successfully imported extras{c.replace('ex','')}")
+
+
+def actinf():
+    print(
+    "\nLIST of ACTIVITIES\n",
+
+    "\nACTIVITY 1: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 2: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 3: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 4: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 5: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 6: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 7: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 8: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 9: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 10: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 11: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 12: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 13: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 14: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 15: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 16: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 17: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 18: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 19: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 20: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 21: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 22: ",
+    "\nDescription: \n",
+    
+    "\nACTIVITY 23: ",
+    "\nDescription: \n",
+    
+    "\nACTIVITY 24: ",
+    "\nDescription: \n",
+
+    "\nACTIVITY 25: ",
+    "\nDescription: \n",
+
+    )
+def ccinf():
+    print(
+    "\nLIST of CODE CHALLENGES\n",
+
+    "\nCODE CHALLENGE 1: ",
+    "\nDescription: \n",
+
+    "\nCODE CHALLENGE 2: ",
+    "\nDescription: \n",
+
+    "\nCODE CHALLENGE 3: ",
+    "\nDescription: \n",
+
+    "\nCODE CHALLENGE 4: ",
+    "\nDescription: \n",
+
+    "\nCODE CHALLENGE 5: ",
+    "\nDescription: \n",
+
+    "\nCODE CHALLENGE 6: ",
+    "\nDescription: \n",
+
+    "\nCODE CHALLENGE 7: ",
+    "\nDescription: \n",
+
+    "\nCODE CHALLENGE 8: ",
+    "\nDescription: \n",
+
+    "\nCODE CHALLENGE 9: ",
+    "\nDescription: \n",
+
+    "\nCODE CHALLENGE 10: ",
+    "\nDescription: \n",
+
+    "\nCODE CHALLENGE 11: ",
+    "\nDescription: \n",
+
+    "\nCODE CHALLENGE 12: ",
+    "\nDescription: \n",
+
+    "\nCODE CHALLENGE 13: ",
+    "\nDescription: \n",
+
+    "\nCODE CHALLENGE 14: ",
+    "\nDescription: \n",
+
+    "\nCODE CHALLENGE 15: ",
+    "\nDescription: \n",
+
+    "\nCODE CHALLENGE 16: ",
+    "\nDescription: \n",
+
+    )
+
+def exinf():
+    print(
+    "\nLIST of EXTRAS\n",
+
+    "\nEXTRA 1: ",
+    "\nDescription: \n",
+
+    "\nEXTRA 2: ",
+    "\nDescription: \n",
+
+    )
+
 def help():
     print(
     "\nLIST\n",
@@ -74,6 +224,10 @@ def help():
     "\ntype 'cc(number)' to access any specific code challenges.",
     "\ntype 'cc info' for more info.\n",
 
+    "\nEXTRAS (1-2)",
+    "\ntype 'ex(number)' to access any specific extras.",
+    "\ntype 'ex info' for more info.\n",
+
     "\notherwise, type exit or 0 to quit.\n"
     )
 help()
@@ -82,18 +236,27 @@ program=True
 
 
 
-
+action = input("type which action you want to proceed with: ")
 while program:
 
     num=1
-    action = input("type which action you want to proceed with. if in need of instructions, type 'help': ")
     if action.lower()== "exit" or action.lower()=="quit" or action=="0":
         os.system('cls')
         print("bye")
+        break
         
     elif action.lower()=="help":
         os.system('cls')
         help()
+    elif action.lower()=="cc info":
+        os.system('cls')
+        ccinf()
+    elif action.lower()=="act info":
+        os.system('cls')
+        actinf()
+    elif action.lower()=="ex info":
+        os.system('cls')
+        exinf()
 
     ##CODE CHALLENGES
     elif action.lower()=="cc1":
@@ -207,13 +370,8 @@ while program:
         cc16()
 
         end()
-    ##ACTIVITIES
-    elif action.lower()=="act1":
-        os.system('cls')
-        ccn(action)
-        cc16()
 
-        end()
+    ##ACTIVITIES
     elif action.lower()=="act1":
         os.system('cls')
         actn(action)
@@ -366,24 +524,25 @@ while program:
         end()
     ##EXTRAS
         end()
-    elif action.lower()=="encoder":
+    elif action.lower()=="ex1":
         os.system('cls')
         actn(action)
         enc()
 
         end()
-    elif action.lower()=="binary":
+    elif action.lower()=="ex2":
         os.system('cls')
         actn(action)
         binary()
 
         end()
 
-
+    
 
     else:
         os.system('cls')
-        print("input unrecognized..")
-        
+        print(f"input unrecognized.. there is no such thing as {action}. unless it's a misinput?")
+
+    action = input("type which action you want to proceed with. if in need of instructions, type 'help': ")
     
     
