@@ -1,4 +1,5 @@
 def act():
+    print("INFO: this program will ask for a specified amount of triangles to produce.\n")
     num=eval(input("enter amount of triangles: "))
     num+=1
     for x in range(1, 6):

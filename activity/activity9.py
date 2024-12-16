@@ -1,4 +1,5 @@
 def act():
+    print("INFO: this program identifies which age bracket you belong in.\n")
     age = eval(input("\ntype age lol: "))
 
     if age <1:

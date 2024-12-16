@@ -1,6 +1,6 @@
 
 def act():
-    print("activity 16 is a cc9 recap.")
+    print("INFO: activity16 is a cc9 recap.\n")
     num = eval(input("type number lol: "))
     num += 1
     for x in range(0, num):

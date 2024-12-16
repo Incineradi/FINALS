@@ -1,4 +1,5 @@
 def cc():
+ print("INFO: code_challenge7 is a simulation of that thing that takes your order (i forgot the name).\n")
  name = input("enter your name: ")
  age = eval(input("enter your age: "))
  ask = input("did you buy grocery (yes or no): ")

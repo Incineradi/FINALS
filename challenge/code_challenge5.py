@@ -1,4 +1,5 @@
 def cc():
+    print("INFO: code_challenge5 is a fahrenheit to celsius converter like activity5.\n")
     print("fahrenheit to celsius converter")
 
     f = eval(input("enter fahrenheit (number only): "))

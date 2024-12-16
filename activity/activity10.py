@@ -1,4 +1,5 @@
 def act():
+    print("INFO: this program identifies what your classification is based on your school year. please input the correct number from numbers 1-4.\n")
     name = input("\ntype name lol: ")
     dll = input("\nare you a student of dll?: ")
 

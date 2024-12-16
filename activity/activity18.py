@@ -1,4 +1,5 @@
 def act():
+    print("INFO: activity18 introduces for loop.\n")
     num=eval(input("enter num: "))
     num+=1
     for x in range(1, 6):

@@ -1,4 +1,5 @@
 def cc():
+    print("INFO: code_challenge6 is a program that asks for your overall grades for the following questions.\n")
     name = input ("enter your name: ")
 
     print("enter your grades on the following (70-100 only).\n")

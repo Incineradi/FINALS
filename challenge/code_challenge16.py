@@ -1,4 +1,5 @@
 def cc():
+    print("INFO: code_challenge16 is a bank simulator that asks for an initial deposit of 1000 to be eligible for an account.\n")
     import os
     dep=0
     program=True

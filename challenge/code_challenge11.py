@@ -1,5 +1,6 @@
 
 def cc():
+    print("INFO: code_challenge11 also prints a diamond. meant to use a different code than code_challenge10 but i unexpectedly solved the issue in advance that time so they're essentially the same.\n")
     num = eval(input("\n  type number lol: "))
     print()
     for x in range(0, num):

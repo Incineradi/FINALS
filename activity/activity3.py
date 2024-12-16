@@ -1,4 +1,5 @@
 def act():
+ print("INFO: activity3 is a biodata simulation program, similar to code_challenge3. please input the appropriate datas, as there will be a twist in the end for no absolute reason.\n")
  name = input("\nEnter name: ")
 
  num = int(input("\nEnter number: "))

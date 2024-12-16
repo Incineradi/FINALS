@@ -1,4 +1,5 @@
 def cc():
+    print("INFO: code_challenge4 showcases the different operators of python and will calculate two inputs, similar to activity4.\n")
     num1=eval(input("input first number: "))
     num2=eval(input("input second number: "))
 

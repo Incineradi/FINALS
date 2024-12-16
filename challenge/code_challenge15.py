@@ -1,4 +1,5 @@
 def cc():
+    print("INFO: code_challenge15 is a program that continuously asks the user for more triangles of uniform proportion. if user states 'no', the program will be terminated.\n")
     import os
     program=True
     num=0

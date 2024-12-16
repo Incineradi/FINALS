@@ -1,4 +1,5 @@
 def act():
+    print("INFO: self explanatory.\n")
     print("fahrenheit to celsius converter")
 
     f = eval(input("enter fahrenheit (number only): "))

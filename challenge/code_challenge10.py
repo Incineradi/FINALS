@@ -1,6 +1,7 @@
 
 
 def cc():
+    print("INFO: code_challenge10 will produce a diamond of a size proportionate to the user's input.\n")
     num = eval(input("type number lol: "))
 
     for x in range(0, num):

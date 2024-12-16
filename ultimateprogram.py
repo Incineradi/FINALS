@@ -2,7 +2,7 @@ import os
 ##import cc
 from challenge.code_challenge1 import cc as cc1
 from challenge.code_challenge2 import cc as cc2
-##from challenge.code_challenge3 import cc as cc3
+from challenge.code_challenge3 import cc as cc3
 from challenge.code_challenge4 import cc as cc4
 from challenge.code_challenge5 import cc as cc5
 from challenge.code_challenge6 import cc as cc6
@@ -18,7 +18,6 @@ from challenge.code_challenge15 import cc as cc15
 from challenge.code_challenge16 import cc as cc16
 
 ##import act
-##from activity.activity1 import act as act1
 from activity.activity1 import act as act1
 from activity.activity2 import act as act2
 from activity.activity3 import act as act3
@@ -48,24 +47,21 @@ from activity.activity25 import act as act25
 
 ##import extras
 from extras.ENCODER import encoder as enc
+from extras.BINARY import binary
 
 
 """people tell me these blocks of import look ugly but honestly they're so pretty to look at"""
-
 
 os.system('cls')
 def end():
     print("simulation ended.")
 ##for calling
 def ccn(c):
-    print(f"successfully imported code_challenge{c[2]}")
+    print(f"successfully imported code_challenge{c.replace('c','')}")
 
 def actn(c):
-    print(f"successfully imported activity{c[3]}")
+    print(f"successfully imported activity{c.replace('act','')}")
 
-def tn(c):
-    print(f"successfully imported code_challenge{c[2]}")
-    
 def help():
     print(
     "\nLIST\n",
@@ -114,15 +110,13 @@ while program:
 
         end()
 
-    ###################################################################
     elif action.lower()=="cc3":
         os.system('cls')
         ccn(action)
-        ##cc3()
+        cc3()
 
         end()
         
-        #############################################################
     elif action.lower()=="cc4":
         os.system('cls')
         ccn(action)
@@ -222,183 +216,166 @@ while program:
         end()
     elif action.lower()=="act1":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act1()
 
         end()
     elif action.lower()=="act2":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act2()
 
         end()
     elif action.lower()=="act3":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act3()
 
         end()
     elif action.lower()=="act4":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act4()
 
         end()
     elif action.lower()=="act5":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act5()
 
         end()
     elif action.lower()=="act6":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act6()
 
         end()
     elif action.lower()=="act7":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act7()
 
         end()
     elif action.lower()=="act8":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act8()
 
         end()
     elif action.lower()=="act9":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act9()
 
         end()
     elif action.lower()=="act10":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act10()
 
         end()
     elif action.lower()=="act11":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act11()
 
         end()
     elif action.lower()=="act12":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act12()
 
         end()
     elif action.lower()=="act13":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act13()
 
         end()
     elif action.lower()=="act14":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act14()
 
         end()
     elif action.lower()=="act15":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act15()
 
         end()
     elif action.lower()=="act16":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act16()
 
         end()
     elif action.lower()=="act17":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act17()
 
         end()
     elif action.lower()=="act18":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act18()
 
         end()
     elif action.lower()=="act19":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act19()
 
         end()
     elif action.lower()=="act20":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act20()
 
         end()
     elif action.lower()=="act21":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act21()
 
         end()
     elif action.lower()=="act22":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act22()
 
         end()
     elif action.lower()=="act23":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act23()
 
         end()
     elif action.lower()=="act24":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act24()
 
         end()
     elif action.lower()=="act25":
         os.system('cls')
-        ccn(action)
+        actn(action)
         act25()
 
         end()
     ##EXTRAS
-    elif action.lower()=="t1":
-        os.system('cls')
-        ccn(action)
-        t1()
-
-        end()
-    elif action.lower()=="t2":
-        os.system('cls')
-        ccn(action)
-        t2()
-
-        end()
-    elif action.lower()=="t3":
-        os.system('cls')
-        ccn(action)
-        t3()
-
-        end()
-    elif action.lower()=="t4":
-        os.system('cls')
-        ccn(action)
-        t4()
-
         end()
     elif action.lower()=="encoder":
         os.system('cls')
-        ccn(action)
+        actn(action)
         enc()
+
+        end()
+    elif action.lower()=="binary":
+        os.system('cls')
+        actn(action)
+        binary()
 
         end()
 

@@ -1,4 +1,5 @@
 def act():
+    print("INFO: this program will ask for a number and will sum up odd and even numbers below or equal to the specified number .\n")
     x=0
     even=0
     odd=0

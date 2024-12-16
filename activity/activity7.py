@@ -1,4 +1,5 @@
 def act():
+ print("INFO: activity7 showcases if-else statements.\n")
  name = input("enter your name, dear miner: ")
  gold = 0
  isgold = input("\ndo you own a piece of gold? (YES or NO): ")
