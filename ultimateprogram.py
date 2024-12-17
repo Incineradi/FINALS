@@ -55,8 +55,31 @@ from extras.filterer import f
 
 
 """people tell me these blocks of import look ugly but honestly they're so pretty to look at"""
+def menuinf():
+    os.system('cls')
+    print(
+    "\n                                 WELCOME TO MY CODE ARCHIVE!\n",
 
+    "\n this program compiles programs created during the first sem for easier access.\n",
+    "\n this includes code challenges, activities, and even programs that i made for personal use.",
+    "\n this compiler tries its best to preserve the original code of the programs, ",
+    "\n but modifies it a little to prevent unexpected termination of the compiler. \n",
+
+    "\n with all that in mind, this compiler will also try its best to guide you through all of them.",
+    "\n enjoy!\n",
+
+    )
+    click=input("\npress enter to continue: \n")
+    
+
+menuinf()
 os.system('cls')
+
+print("Welcome! i opened the general help list for you to get you started. if you ever wish to open this submenu again, type 'help'.")
+
+
+
+
 def end():
     print("simulation ended.")
 ##for calling
@@ -68,6 +91,8 @@ def actn(c):
 
 def exn(c):
     print(f"successfully imported extras{c.lower().replace('ex','')}\n")
+
+
 
 def intnotice():
     print(
@@ -257,11 +282,12 @@ def help():
     "\ntype 'ex(number)' to access any specific extras.",
     "\ntype 'ex info' for more info.\n",
 
+    "\nSETTINGS",
+    "\nmaybe you want to return to menu? (why would you?), type 'menu' if so."
     "\notherwise, type exit or 0 to quit.\n"
     )
 help()
 program=True
-
 
 
 
@@ -277,6 +303,13 @@ while program:
     elif action.lower()=="help":
         os.system('cls')
         help()
+    elif action.lower()=="":
+        os.system('cls')
+        print("received no input. opening the 'help' tab instead.")
+        help()
+    elif action.lower()=="menu":
+        os.system('cls')
+        menuinf()
     elif action.lower()=="cc info":
         os.system('cls')
         ccinf()
