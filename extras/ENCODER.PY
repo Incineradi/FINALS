@@ -4,7 +4,7 @@ def encoder():
     
     program=True
     while program:
-        dep= input("enter your number: ")
+        dep= input("enter your number. type 'stop' to stop: ")
         if dep == "stop":
             os.system('cls')
             break
