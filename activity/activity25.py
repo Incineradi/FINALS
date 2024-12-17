@@ -1,5 +1,5 @@
 def act():
-    print("INFO: this program showcases the list feature.\n")
+    print("INFO: this program showcases the list feature.\n--------------------------------------------------------\n")
     fruits = ["apple","banana","rtx3060"]
 
     print(fruits)

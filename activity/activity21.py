@@ -1,5 +1,5 @@
 def act():
-    print("INFO: this program will continuously ask for a name until you input 'stop'. the program will then count the amount of names you registered.\n")
+    print("INFO: this program will continuously ask for a name until you input 'stop'. the program will then count the amount of names you registered.\n--------------------------------------------------------\n")
     import os
 
     program=True

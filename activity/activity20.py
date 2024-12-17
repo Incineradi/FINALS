@@ -1,5 +1,5 @@
 def act():
-    print("INFO: this program will continuously ask whether you wish for another triangle or not.\n")
+    print("INFO: this program will continuously ask whether you wish for another triangle or not.\n--------------------------------------------------------\n")
     import os
 
     the=True

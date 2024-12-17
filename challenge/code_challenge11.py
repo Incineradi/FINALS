@@ -1,6 +1,7 @@
 
 def cc():
-    print("INFO: code_challenge11 also prints a diamond. meant to use a different code than code_challenge10 but i unexpectedly solved the issue in advance that time so they're essentially the same.\n")
+    print("INFO: code_challenge11 also prints a diamond. meant to use a different code than code_challenge10 ",
+          "but i unexpectedly solved the issue in advance that time so they're essentially the same.\n--------------------------------------------------------\n")
     num = input("\n  type number lol: ")
     """FILTER CODE THAT IM VERY PROUD I MADE"""
     echo=num

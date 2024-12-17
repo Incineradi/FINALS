@@ -1,5 +1,5 @@
 def binary():
-    print("INFO: binary converter.\n")
+    print("INFO: binary converter.\n--------------------------------------------------------\n")
     
     num = input("type number: ")
 

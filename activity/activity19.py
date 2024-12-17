@@ -1,6 +1,6 @@
 
 def act():
-    print("INFO: this program will continuously ask for a name until you input 'stop'.\n")
+    print("INFO: this program will continuously ask for a name until you input 'stop'.\n--------------------------------------------------------\n")
     import os
 
     the=True

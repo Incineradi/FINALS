@@ -1,5 +1,5 @@
 def act():
-    print("INFO: activity4 showcases the different operators of python and will calculate two inputs, similar to code_challenge4.\n")
+    print("INFO: activity4 showcases the different operators of python and will calculate two inputs, similar to code_challenge4.\n--------------------------------------------------------\n")
     num1 = input("\n  type number lol: ")
     num2 = input("\n  type number lol: ")
             

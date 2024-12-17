@@ -1,6 +1,6 @@
 
 def act():
-    print("INFO: this program identifies which age bracket you belong in.\n")
+    print("INFO: this program identifies which age bracket you belong in.\n--------------------------------------------------------\n")
     age = input("\ntype age lol: ")
 
     echo=age

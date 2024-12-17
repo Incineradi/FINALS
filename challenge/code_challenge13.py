@@ -1,5 +1,6 @@
 def cc():
-    print("INFO: code_challenge13 creates a diamond made of numbers. 2 digit numbers are not adviced because it ruins the diamond. i could use the tab command, but i kinda dont care and we werent instructed to use it. it will also make the diamond look bigger.\n")
+    print("INFO: code_challenge13 creates a diamond made of numbers. 2 digit numbers are not adviced because it ruins the diamond.",
+          "\ni could use the tab command, but i kinda dont care and we werent instructed to use it. it will also make the diamond look bigger.\n--------------------------------------------------------\n")
     print("dont go past single digit numbers or it goes bonkers LOL")
     num = input("\n  type number lol: ")
     """FILTER CODE THAT IM VERY PROUD I MADE"""

@@ -1,5 +1,5 @@
 def act():
-    print("INFO: activity17 is a target 3 recap. it will ask for a number and will create a multiplication table up to your specified amount.\n")
+    print("INFO: activity17 is a target 3 recap. it will ask for a number and will create a multiplication table up to your specified amount.\n--------------------------------------------------------\n")
     num = input("enter number: ")
     """FILTER CODE THAT IM VERY PROUD I MADE"""
     echo=num

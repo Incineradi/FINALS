@@ -1,5 +1,5 @@
 def act():
-    print("INFO: activity8 showcases if-else statements. you may type the name 'reaper' and the password 'poper' for example.\n")
+    print("INFO: activity8 showcases if-else statements. you may type the name 'reaper' and the password 'poper' for example.\n--------------------------------------------------------\n")
     name = input("enter your name: ")
 
     password = input("\nenter your password: ")

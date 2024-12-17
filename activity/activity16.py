@@ -1,6 +1,6 @@
 
 def act():
-    print("INFO: activity16 is a cc9 recap.\n")
+    print("INFO: activity16 is a cc9 recap.\n--------------------------------------------------------\n")
     num = input("type number lol: ")
     """FILTER CODE THAT IM VERY PROUD I MADE"""
     echo=num

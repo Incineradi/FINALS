@@ -1,6 +1,6 @@
 
 def act():
-    print("INFO: this program will divide two inputs.\n")
+    print("INFO: this program will divide two inputs.\n--------------------------------------------------------\n")
     num1 = input("\n  type 1st number lol: ")
     num2 = input("\n  type 2nd number lol: ")
 

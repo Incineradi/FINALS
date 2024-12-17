@@ -1,6 +1,6 @@
 def encoder():
     import os
-    print("INFO: encoder encodes a specific number into a specific cipher formula. the creator utilized this program to make quick ciphers for their math activities.\n")
+    print("INFO: encoder encodes a specific number into a specific cipher formula. the creator utilized this program to make quick ciphers for their math activities.\n--------------------------------------------------------\n")
     
     program=True
     while program:

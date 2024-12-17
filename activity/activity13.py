@@ -1,5 +1,5 @@
 def act():
-    print("INFO: this program will calculate the factorial of your input.\n")
+    print("INFO: this program will calculate the factorial of your input.\n--------------------------------------------------------\n")
     num= input("enter number lol: ")
     """FILTER CODE THAT IM VERY PROUD I MADE"""
     echo=num

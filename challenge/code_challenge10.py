@@ -1,7 +1,7 @@
 
 
 def cc():
-    print("INFO: code_challenge10 will produce a diamond of a size proportionate to the user's input.\n")
+    print("INFO: code_challenge10 will produce a diamond of a size proportionate to the user's input.\n--------------------------------------------------------\n")
     num = input("type number lol: ")
     """FILTER CODE THAT IM VERY PROUD I MADE"""
     echo=num

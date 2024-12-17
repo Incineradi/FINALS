@@ -1,5 +1,5 @@
 def cc():
-    print("INFO: code_challenge16 is a bank simulator that asks for an initial deposit of 10000 to be eligible for an account.\n")
+    print("INFO: code_challenge16 is a bank simulator that asks for an initial deposit of 10000 to be eligible for an account.\n--------------------------------------------------------\n")
     print("this program is sort of long but not so annoying. if you wish to quit, type 0. otherwise, type enter.")
     annoying=input("")
     if annoying == "0":

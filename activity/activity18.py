@@ -1,5 +1,5 @@
 def act():
-    print("INFO: this program will ask for a specified amount of triangles to produce.\n")
+    print("INFO: this program will ask for a specified amount of triangles to produce.\n--------------------------------------------------------\n")
     num=input("enter amount of triangles: ")
 
     """FILTER CODE THAT IM VERY PROUD I MADE"""

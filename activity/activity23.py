@@ -1,5 +1,5 @@
 def act():
-    print("INFO: a factorial function is inside activity23. please open activity24 to launch this function.\n")
+    print("INFO: a factorial function is inside activity23. please open activity24 to launch this function.\n--------------------------------------------------------\n")
 
 def factorial(num):
     fact=1

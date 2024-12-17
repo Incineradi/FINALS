@@ -1,5 +1,5 @@
 def cc():
-    print("INFO: code_challenge4 showcases the different operators of python and will calculate two inputs, similar to activity4.\n")
+    print("INFO: code_challenge4 showcases the different operators of python and will calculate two inputs, similar to activity4.\n--------------------------------------------------------\n")
     num1=input("input first number: ")
     num2=input("input second number: ")
             

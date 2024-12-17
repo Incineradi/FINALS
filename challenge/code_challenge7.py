@@ -1,5 +1,5 @@
 def cc():
- print("INFO: code_challenge7 is a simulation of that thing that takes your order (i forgot the name).\n")
+ print("INFO: code_challenge7 is a simulation of that thing that takes your order (i forgot the name).\n--------------------------------------------------------\n")
  print("this program is really long and annoying. if you wish to quit, type 0. otherwise, type enter.")
  annoying=input("")
  if annoying == "0":

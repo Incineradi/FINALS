@@ -1,5 +1,5 @@
 def act():
-    print("INFO: this program will ask for a specified snake length (anybody who says it isn't a snake will not witness the light of day).\n")
+    print("INFO: this program will ask for a specified snake length (anybody who says it isn't a snake will not witness the light of day).\n--------------------------------------------------------\n")
     num= input("enter length number lol: ")
     """FILTER CODE THAT IM VERY PROUD I MADE"""
     echo=num

@@ -1,6 +1,6 @@
 def f( ):
     
-    print("INFO: this is the final outcome of the filter program created by me, sean alonzo. :33333.\n")
+    print("INFO: this is the final outcome of the filter program created by me, sean alonzo. :33333.\n--------------------------------------------------------\n")
     example=input("input a mix of numbers and strings. string only inputs will result into 0: ")
     echo=example
     keep= "1234567890."

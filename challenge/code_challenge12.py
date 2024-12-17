@@ -1,5 +1,5 @@
 def cc():
-    print("INFO: code_challenge12 prints an arrow.\n")
+    print("INFO: code_challenge12 prints an arrow.\n--------------------------------------------------------\n")
     for e in range(0, 5):
         for a in range (5, e, -1):
             print(" ", end=" " )

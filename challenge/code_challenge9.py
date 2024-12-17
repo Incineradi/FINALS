@@ -1,7 +1,8 @@
 
 
 def cc():
-    print("INFO: code_challenge9 will ask for a number and will convert it into a mirrored upside down triangle with the size equivalent to your input.\n")
+    print("INFO: code_challenge9 will ask for a number and will convert it into ",
+          "a mirrored upside down triangle with the size equivalent to your input.\n--------------------------------------------------------\n")
     num = input("type number lol: ")
     """FILTER CODE THAT IM VERY PROUD I MADE"""
     echo=num

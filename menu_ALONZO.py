@@ -52,7 +52,7 @@ from extras.testing import filtertest
 from extras.filterer import f
 
 
-
+inttoggle=True
 
 """people tell me these blocks of import look ugly but honestly they're so pretty to look at"""
 def menuinf():
@@ -75,7 +75,7 @@ def menuinf():
 menuinf()
 os.system('cls')
 
-print("Welcome! i opened the general help list for you to get you started. if you ever wish to open this submenu again, type 'help'.")
+print("\n! : Welcome! i opened the general help list for you to get you started. if you ever wish to open this submenu again, type 'help'.\n--------------------------------------------------------")
 
 
 
@@ -94,24 +94,28 @@ def exn(c):
 
 
 
-def intnotice():
-    print(
-    "\nNOTICE:\n",
+def intnotice(v):
+    if v==True:
+        
+        print(
+        "\nNOTICE:\n--------------------------------------------------------\n",
 
-    "\nit seems that this program contains a variable that asks for an INTEGER(or float) as an input. keep in mind that:\n",
-    "\n -the program will detect and ignore special characters when doing so.",
-    "\n if the user inputs 'asd123f' in an integer exclusive input, the output will be '123'.\n",
-
-
-    "\n -if an input asks for an integer, '12.0' will convert into '120' because '.' is a special character.",
-    "\n keep in mind this filter does not apply if the program is asking for a float number.\n",
-
-    "\n -if the input is left empty, the program will detect it and replace it with 0.",
+        "\nit seems that this program contains one or more variables that asks for an INTEGER(or float) as an input. keep in mind that:\n",
+        "\n -the program will detect and ignore special characters when doing so.",
+        "\n if the user inputs 'asd123f' in an integer exclusive input, the output will be '123'.\n",
 
 
-    )
-    click=input("\npress enter to continue: \n")
-    os.system('cls')
+        "\n -if an input asks for an integer, '12.0' will convert into '120' because '.' is a special character.",
+        "\n keep in mind this filter does not apply if the program is asking for a float number.\n",
+
+        "\n -if the input is left empty, the program will detect it and replace it with 0.",
+        "\n -if you wish to disable this notice, type 'notice off' in the menu.",
+
+
+        )
+        click=input("\npress enter to continue: \n")
+
+        os.system('cls')
 
 
 
@@ -119,11 +123,11 @@ def actinf():
     print(
     "\nLIST of ACTIVITIES\n",
 
-    "\n\n*PRINT STATEMENTS*\n",
+    "\n\n*PRINT STATEMENTS*--------------------------------------------------------\n",
     "\nACTIVITY 1: Hello world!",
     "\nDescription: first activity.\n",
 
-    "\n\n*OPERATORS*\n",
+    "\n\n*OPERATORS*--------------------------------------------------------\n",
     "\nACTIVITY 2: Division calculator",
     "\nDescription: divides two inputs.\n",
 
@@ -139,7 +143,7 @@ def actinf():
     "\nACTIVITY 6: Addition assignment operator",
     "\nDescription: utilizes +=, which adds onto and updates the variable itself.\n",
 
-    "\n\n*IF ELSE STATEMENTS*\n",
+    "\n\n*IF ELSE STATEMENTS*--------------------------------------------------------\n",
     "\nACTIVITY 7: Gold ownership",
     "\nDescription: utilizes if-else statements.\n",
 
@@ -152,7 +156,7 @@ def actinf():
     "\nACTIVITY 10: School year",
     "\nDescription: classifies you based on your school year level IF you're a student of dll.\n",
 
-    "\n\n*LOOP STATEMENTS*\n",
+    "\n\n*LOOP STATEMENTS*--------------------------------------------------------\n",
     "\nACTIVITY 11: Introduction to loop",
     "\nDescription: loops a statement 10 times.\n",
 
@@ -186,27 +190,30 @@ def actinf():
     "\nACTIVITY 21: Name amount counter",
     "\nDescription: will ask for names until you type 'stop', and counts the amount of names you typed.\n",
 
-    "\n\n*FUNCTIONS*\n",
+    "\n\n*FUNCTIONS*--------------------------------------------------------\n",
     "\nACTIVITY 22: Introduction to functions",
     "\nDescription: creates a function and calls it 4 times.\n",
     
     "\nACTIVITY 23: Outside function",
     "\nDescription: this program houses a function that isnt called. it is meant to be empty and executed by activity 24.\n",
     
-    "\n\n*IMPORTS*\n",
+    "\n\n*IMPORTS*--------------------------------------------------------\n",
     "\nACTIVITY 24: Introduction to imports",
     "\nDescription: this program imports a function from activity23 and calls it.\n",
 
-    "\n\n*LISTS*\n",
+    "\n\n*LISTS*--------------------------------------------------------\n",
     "\nACTIVITY 25: Introduction to lists",
-    "\nDescription: this program utilizes list basics such as append, insert, and remove.\n",
+    "\nDescription: this program utilizes list basics such as append, insert, and remove.\n\n",
 
+    "\nOTHER INFOS:--------------------------------------------------------",
+    "\nfor code challenges, type 'cc info' or '2' for more info.",
+    "\nfor extras, type 'ex info' or '3' for more info.\n",
     )
 def ccinf():
     print(
     "\nLIST of CODE CHALLENGES\n",
 
-    "\n\n*PRINT STATEMENTS*\n",
+    "\n\n*PRINT STATEMENTS*--------------------------------------------------------\n",
     "\nCODE CHALLENGE 1: Diamond",
     "\nDescription: \n",
 
@@ -216,21 +223,21 @@ def ccinf():
     "\nCODE CHALLENGE 3: Biodata",
     "\nDescription: simulates a biodata. very long program, and often times very annoying during testing.\n",
 
-    "\n\n*OPERATORS*\n",
+    "\n\n*OPERATORS*--------------------------------------------------------\n",
     "\nCODE CHALLENGE 4: Python operators",
     "\nDescription: uses the different python operators to calculate two inputs.\n",
 
     "\nCODE CHALLENGE 5: Fahrenheit to celsius",
     "\nDescription: exactly what you think it would do.\n",
 
-    "\n\n*IF ELSE STATEMENTS*\n",
+    "\n\n*IF ELSE STATEMENTS*--------------------------------------------------------\n",
     "\nCODE CHALLENGE 6: Average grades",
     "\nDescription: totals your final grades and into your average grade.\n",
 
     "\nCODE CHALLENGE 7: Order something something whatever it was called simulator",
     "\nDescription: allows you to simulate logging your orders and calculating your total expenses.\n",
 
-    "\n\n*LOOP STATEMENTS*\n",
+    "\n\n*LOOP STATEMENTS*--------------------------------------------------------\n",
     "\nCODE CHALLENGE 8: Sum of 10 numbers",
     "\nDescription: asks for 10 numbers and adds them.\n",
 
@@ -256,8 +263,11 @@ def ccinf():
     "\nDescription: continuously asks the user if they want to add a triangle in a row.\n",
 
     "\nCODE CHALLENGE 16: Bank simulator",
-    "\nDescription: simulates a bank. prepare an initial deposit of 10000.\n",
+    "\nDescription: simulates a bank. prepare an initial deposit of 10000.\n\n",
 
+    "\nOTHER INFOS:--------------------------------------------------------",
+    "\nfor activities, type 'act info' or '1' for more info.",
+    "\nfor extras, type 'ex info' or '3' for more info.\n",
     )
 
 def exinf():
@@ -274,26 +284,30 @@ def exinf():
     "\nDescription: a test program for developing the filter feature of this compiler.\n",
 
     "\nEXTRA 4: Char filter",
-    "\nDescription: the final product of the filter feature.\n",
+    "\nDescription: the final product of the filter feature.\n\n",
+
+    "\nOTHER INFOS:--------------------------------------------------------",
+    "\nfor activities, type 'act info' or '1' for more info.",
+    "\nfor code challenges, type 'cc info' or '2' for more info.\n",
     )
 
 def help():
     print(
     "\nLIST\n",
 
-    "\nACTIVITIES (1-25)",
+    "\nACTIVITIES (1-25)--------------------------------------------------------",
     "\ntype 'act(number)' to access any specific activities.",
     "\ntype 'act info' or '1' for more info.\n",
 
-    "\nCODE CHALLENGES (1-16)",
+    "\nCODE CHALLENGES (1-16)--------------------------------------------------------",
     "\ntype 'cc(number)' to access any specific code challenges.",
     "\ntype 'cc info' or '2' for more info.\n",
 
-    "\nEXTRAS (1-4)",
+    "\nEXTRAS (1-4)--------------------------------------------------------",
     "\ntype 'ex(number)' to access any specific extras.",
     "\ntype 'ex info' or '3' for more info.\n",
 
-    "\nSETTINGS",
+    "\nSETTINGS--------------------------------------------------------",
     "\nmaybe you want to return to menu? (why would you?), type 'menu' if so."
     "\notherwise, type exit or 0 to quit.\n"
     )
@@ -311,6 +325,12 @@ while program:
         print("bye")
         break
         
+    elif action.lower()=="notice off":
+        inttoggle=False
+        print("\ninteger notice disabled.\n")
+    elif action.lower()=="notice on":
+        inttoggle=True
+        print("\ninteger notice enabled.\n")
     elif action.lower()=="help":
         os.system('cls')
         help()
@@ -348,7 +368,7 @@ while program:
 
     elif action.lower()=="cc3":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         ccn(action)
         cc3()
 
@@ -356,7 +376,7 @@ while program:
         
     elif action.lower()=="cc4":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         ccn(action)
         cc4()
 
@@ -364,7 +384,7 @@ while program:
         
     elif action.lower()=="cc5":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         ccn(action)
         cc5()
 
@@ -372,7 +392,7 @@ while program:
         
     elif action.lower()=="cc6":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         ccn(action)
         cc6()
 
@@ -380,7 +400,7 @@ while program:
         
     elif action.lower()=="cc7":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         ccn(action)
         cc7()
 
@@ -388,7 +408,7 @@ while program:
         
     elif action.lower()=="cc8":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         ccn(action)
         cc8()
 
@@ -396,7 +416,7 @@ while program:
         
     elif action.lower()=="cc9":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         ccn(action)
         cc9()
 
@@ -404,7 +424,7 @@ while program:
         
     elif action.lower()=="cc10":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         ccn(action)
         cc10()
 
@@ -412,7 +432,7 @@ while program:
         
     elif action.lower()=="cc11":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         ccn(action)
         cc11()
 
@@ -427,7 +447,7 @@ while program:
         
     elif action.lower()=="cc13":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         ccn(action)
         cc13()
 
@@ -435,7 +455,7 @@ while program:
         
     elif action.lower()=="cc14":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         ccn(action)
         cc14()
 
@@ -443,7 +463,7 @@ while program:
         
     elif action.lower()=="cc15":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         ccn(action)
         cc15()
 
@@ -451,7 +471,7 @@ while program:
         
     elif action.lower()=="cc16":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         ccn(action)
         cc16()
 
@@ -466,28 +486,28 @@ while program:
         end()
     elif action.lower()=="act2":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         actn(action)
         act2()
 
         end()
     elif action.lower()=="act3":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         actn(action)
         act3()
 
         end()
     elif action.lower()=="act4":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         actn(action)
         act4()
 
         end()
     elif action.lower()=="act5":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         actn(action)
         act5()
 
@@ -500,7 +520,7 @@ while program:
         end()
     elif action.lower()=="act7":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         actn(action)
         act7()
 
@@ -513,14 +533,14 @@ while program:
         end()
     elif action.lower()=="act9":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         actn(action)
         act9()
 
         end()
     elif action.lower()=="act10":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         actn(action)
         act10()
 
@@ -533,7 +553,7 @@ while program:
         end()
     elif action.lower()=="act12":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         actn(action)
         act12()
 
@@ -558,21 +578,21 @@ while program:
         end()
     elif action.lower()=="act16":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         actn(action)
         act16()
 
         end()
     elif action.lower()=="act17":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         actn(action)
         act17()
 
         end()
     elif action.lower()=="act18":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         actn(action)
         act18()
 
@@ -623,14 +643,14 @@ while program:
         end()
     elif action.lower()=="ex1":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         exn(action)
         encoder()
 
         end()
     elif action.lower()=="ex2":
         os.system('cls')
-        intnotice()
+        intnotice(inttoggle)
         exn(action)
         binary()
 

@@ -1,6 +1,6 @@
 def act():
  print("INFO: activity3 is a biodata simulation program, similar to code_challenge3. \n",
-       "please input the appropriate datas, as there will be a twist in the end for no absolute reason.\n")
+       "please input the appropriate datas, as there will be a twist in the end for no absolute reason.\n--------------------------------------------------------\n")
  print("this program is really long and annoying. if you wish to quit, type 0. otherwise, type enter.")
 
  annoying=input("")
