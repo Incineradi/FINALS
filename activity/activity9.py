@@ -14,7 +14,7 @@ def act():
     age=int(echo)
 
     if age <1:
-        print("invalid")
+        print(f"{age} is not a valid age.")
 
     elif age <8:
         print("toddler")

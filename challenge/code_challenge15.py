@@ -4,7 +4,7 @@ def cc():
     program=True
     num=0
     while program:
-        q= input("do you want another triangle?: ")
+        q= input("do you want another triangle? type 'no' to exit. : ")
         """FILTER CODE THAT IM VERY PROUD I MADE"""
         echo=q
         keep= "1234567890"

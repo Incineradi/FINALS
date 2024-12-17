@@ -177,14 +177,14 @@ def actinf():
     "\nACTIVITY 18: Triangles",
     "\nDescription: asks the user for a specified amount of triangles to produce in a row.\n",
 
-    "\nACTIVITY 19: under maintenance",
-    "\nDescription: \n",
+    "\nACTIVITY 19: Persistent name asking",
+    "\nDescription: will ask for names until you type 'stop'.\n",
 
     "\nACTIVITY 20: While loop triangles",
     "\nDescription: continuously asks the user if they want to add a triangle in a row. this is a recap of code challenge 15.\n",
 
-    "\nACTIVITY 21: under maintenance",
-    "\nDescription: \n",
+    "\nACTIVITY 21: Name amount counter",
+    "\nDescription: will ask for names until you type 'stop', and counts the amount of names you typed.\n",
 
     "\n\n*FUNCTIONS*\n",
     "\nACTIVITY 22: Introduction to functions",
@@ -572,13 +572,13 @@ while program:
         end()
     elif action.lower()=="act18":
         os.system('cls')
+        intnotice()
         actn(action)
         act18()
 
         end()
     elif action.lower()=="act19":
         os.system('cls')
-        intnotice()
         actn(action)
         act19()
 

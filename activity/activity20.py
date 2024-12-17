@@ -20,4 +20,4 @@ def act():
                         print(" ",end=" ")
                     print(end=" ")
                 print()
-        act=input("want MORE triangles? ")
+        act=input("want MORE triangles? type 'no' to exit. ")
