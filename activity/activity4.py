@@ -13,8 +13,8 @@ def act():
         num2 = num2.lower().replace(filterer,'')
     for converter in num1:
         echo= echo.lower().replace(converter,'')
-        if echo == "":
-            echo="0"
+    if echo == "":
+        echo="0"
     for converter in num2:
         echo1= echo1.lower().replace(converter,'')
     if echo1 == "":
