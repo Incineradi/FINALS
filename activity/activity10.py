@@ -13,8 +13,8 @@ def act():
             yr = yr.lower().replace(filterer,'')
         for converter in yr:
             echo= echo.lower().replace(converter,'')
-            if echo == "":
-                echo="0"
+        if echo == "":
+            echo="0"
         yr=int(echo)
         """END OF THE FILTER CODE THAT IM VERY PROUD TO HAVE MADE"""
 

@@ -9,8 +9,8 @@ def act():
         age = age.lower().replace(filterer,'')
     for converter in age:
         echo= echo.lower().replace(converter,'')
-        if echo == "":
-            echo="0"
+    if echo == "":
+        echo="0"
     age=int(echo)
 
     if age <1:

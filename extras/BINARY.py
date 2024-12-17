@@ -1,7 +1,6 @@
 def binary():
     print("INFO: binary converter.\n")
-    import os
-    os.system("cls")
+    
     num = input("type number: ")
 
     """FILTER CODE THAT IM VERY PROUD I MADE"""
@@ -11,8 +10,8 @@ def binary():
         num = num.lower().replace(filterer,'')
     for converter in num:
         echo= echo.lower().replace(converter,'')
-        if echo == "":
-            echo="0"
+    if echo == "":
+        echo="0"
     num=int(echo)
     """END OF THE FILTER CODE THAT IM VERY PROUD TO HAVE MADE"""
 

@@ -119,14 +119,16 @@ def actinf():
     print(
     "\nLIST of ACTIVITIES\n",
 
+    "\n\n*PRINT STATEMENTS*\n",
     "\nACTIVITY 1: Hello world!",
     "\nDescription: first activity.\n",
 
+    "\n\n*OPERATORS*\n",
     "\nACTIVITY 2: Division calculator",
     "\nDescription: divides two inputs.\n",
 
     "\nACTIVITY 3: Biodata",
-    "\nDescription: simulates a biodata. very long program, and often times very annoying during testing.\n",
+    "\nDescription: simulates a biodata. very long program, and often times very annoying during testing. its a recap of code challenge 3.\n",
 
     "\nACTIVITY 4: Python operators",
     "\nDescription: uses the different python operators to calculate two inputs. its a recap of code challenge 4.\n",
@@ -137,115 +139,124 @@ def actinf():
     "\nACTIVITY 6: Addition assignment operator",
     "\nDescription: utilizes +=, which adds onto and updates the variable itself.\n",
 
+    "\n\n*IF ELSE STATEMENTS*\n",
     "\nACTIVITY 7: Gold ownership",
     "\nDescription: utilizes if-else statements.\n",
 
     "\nACTIVITY 8: Login simulator",
     "\nDescription: also utilizes if-else statements. example provided when the program is opened.\n",
 
-    "\nACTIVITY 9: ",
+    "\nACTIVITY 9: Age bracket",
+    "\nDescription: determines whether you are under a specific age bracket and classifies you.\n",
+
+    "\nACTIVITY 10: School year",
+    "\nDescription: classifies you based on your school year level IF you're a student of dll.\n",
+
+    "\n\n*LOOP STATEMENTS*\n",
+    "\nACTIVITY 11: Introduction to loop",
+    "\nDescription: loops a statement 10 times.\n",
+
+    "\nACTIVITY 12: Sum of odd and even numbers within a count range",
+    "\nDescription: asks the user for a number. the program will count for a specified amount and add numbers with a similar classification (odd or even)\n",
+
+    "\nACTIVITY 13: Factorial calculator",
+    "\nDescription: the program will calculate the factorial of user input.\n",
+
+    "\nACTIVITY 14: End in print",
+    "\nDescription: simple loop program that converts input into the length size of a snake by modifying the print's end statement into ''.\n",
+
+    "\nACTIVITY 15: Triangle",
+    "\nDescription: creates a triangle using loop.\n",
+
+    "\nACTIVITY 16: Mirrored upside down triangle",
+    "\nDescription: creates a mirrored upside down triangle with a size proportionate to user input. this is a code challenge 9 recap.\n",
+
+    "\nACTIVITY 17: Multiplication table",
+    "\nDescription: creates a multiplication table of a size proportionate to user input.\n",
+
+    "\nACTIVITY 18: Triangles",
+    "\nDescription: asks the user for a specified amount of triangles to produce in a row.\n",
+
+    "\nACTIVITY 19: under maintenance",
     "\nDescription: \n",
 
-    "\nACTIVITY 10: ",
+    "\nACTIVITY 20: While loop triangles",
+    "\nDescription: continuously asks the user if they want to add a triangle in a row. this is a recap of code challenge 15.\n",
+
+    "\nACTIVITY 21: under maintenance",
     "\nDescription: \n",
 
-    "\nACTIVITY 11: ",
-    "\nDescription: \n",
-
-    "\nACTIVITY 12: ",
-    "\nDescription: \n",
-
-    "\nACTIVITY 13: ",
-    "\nDescription: \n",
-
-    "\nACTIVITY 14: ",
-    "\nDescription: \n",
-
-    "\nACTIVITY 15: ",
-    "\nDescription: \n",
-
-    "\nACTIVITY 16: ",
-    "\nDescription: \n",
-
-    "\nACTIVITY 17: ",
-    "\nDescription: \n",
-
-    "\nACTIVITY 18: ",
-    "\nDescription: \n",
-
-    "\nACTIVITY 19: ",
-    "\nDescription: \n",
-
-    "\nACTIVITY 20: ",
-    "\nDescription: \n",
-
-    "\nACTIVITY 21: ",
-    "\nDescription: \n",
-
-    "\nACTIVITY 22: ",
-    "\nDescription: \n",
+    "\n\n*FUNCTIONS*\n",
+    "\nACTIVITY 22: Introduction to functions",
+    "\nDescription: creates a function and calls it 4 times.\n",
     
-    "\nACTIVITY 23: ",
-    "\nDescription: \n",
+    "\nACTIVITY 23: Outside function",
+    "\nDescription: this program houses a function that isnt called. it is meant to be empty and executed by activity 24.\n",
     
-    "\nACTIVITY 24: ",
-    "\nDescription: \n",
+    "\n\n*IMPORTS*\n",
+    "\nACTIVITY 24: Introduction to imports",
+    "\nDescription: this program imports a function from activity23 and calls it.\n",
 
-    "\nACTIVITY 25: ",
-    "\nDescription: \n",
+    "\n\n*LISTS*\n",
+    "\nACTIVITY 25: Introduction to lists",
+    "\nDescription: this program utilizes list basics such as append, insert, and remove.\n",
 
     )
 def ccinf():
     print(
     "\nLIST of CODE CHALLENGES\n",
 
-    "\nCODE CHALLENGE 1: ",
+    "\n\n*PRINT STATEMENTS*\n",
+    "\nCODE CHALLENGE 1: Diamond",
     "\nDescription: \n",
 
-    "\nCODE CHALLENGE 2: ",
+    "\nCODE CHALLENGE 2: Name inside a diamond",
     "\nDescription: \n",
 
-    "\nCODE CHALLENGE 3: ",
-    "\nDescription: \n",
+    "\nCODE CHALLENGE 3: Biodata",
+    "\nDescription: simulates a biodata. very long program, and often times very annoying during testing.\n",
 
-    "\nCODE CHALLENGE 4: ",
-    "\nDescription: \n",
+    "\n\n*OPERATORS*\n",
+    "\nCODE CHALLENGE 4: Python operators",
+    "\nDescription: uses the different python operators to calculate two inputs.\n",
 
-    "\nCODE CHALLENGE 5: ",
-    "\nDescription: \n",
+    "\nCODE CHALLENGE 5: Fahrenheit to celsius",
+    "\nDescription: exactly what you think it would do.\n",
 
-    "\nCODE CHALLENGE 6: ",
-    "\nDescription: \n",
+    "\n\n*IF ELSE STATEMENTS*\n",
+    "\nCODE CHALLENGE 6: Average grades",
+    "\nDescription: totals your final grades and into your average grade.\n",
 
-    "\nCODE CHALLENGE 7: ",
-    "\nDescription: \n",
+    "\nCODE CHALLENGE 7: Order something something whatever it was called simulator",
+    "\nDescription: allows you to simulate logging your orders and calculating your total expenses.\n",
 
-    "\nCODE CHALLENGE 8: ",
-    "\nDescription: \n",
+    "\n\n*LOOP STATEMENTS*\n",
+    "\nCODE CHALLENGE 8: Sum of 10 numbers",
+    "\nDescription: asks for 10 numbers and adds them.\n",
 
-    "\nCODE CHALLENGE 9: ",
-    "\nDescription: \n",
+    "\nCODE CHALLENGE 9: Mirrored upside down triangle",
+    "\nDescription: creates a mirrored upside down triangle with a size proportionate to user input.\n",
 
-    "\nCODE CHALLENGE 10: ",
-    "\nDescription: \n",
+    "\nCODE CHALLENGE 10: Dynamic diamond",
+    "\nDescription: creates a diamond with a size proportionate to user input.\n",
 
-    "\nCODE CHALLENGE 11: ",
-    "\nDescription: \n",
+    "\nCODE CHALLENGE 11: Modified dynamic diamond",
+    "\nDescription: honestly its the same thing..\n",
 
-    "\nCODE CHALLENGE 12: ",
-    "\nDescription: \n",
+    "\nCODE CHALLENGE 12: Arrow",
+    "\nDescription: creates an arrow.\n",
 
-    "\nCODE CHALLENGE 13: ",
-    "\nDescription: \n",
+    "\nCODE CHALLENGE 13: Number diamond",
+    "\nDescription: allows you to create a diamond made of numbers.... cool.... right?\n",
 
-    "\nCODE CHALLENGE 14: ",
-    "\nDescription: \n",
+    "\nCODE CHALLENGE 14: While loop sum of all numbers",
+    "\nDescription: continuously asks for a number and sums them all up when user types '0'\n",
 
-    "\nCODE CHALLENGE 15: ",
-    "\nDescription: \n",
+    "\nCODE CHALLENGE 15: While loop triangles",
+    "\nDescription: continuously asks the user if they want to add a triangle in a row.\n",
 
-    "\nCODE CHALLENGE 16: ",
-    "\nDescription: \n",
+    "\nCODE CHALLENGE 16: Bank simulator",
+    "\nDescription: simulates a bank. prepare an initial deposit of 10000.\n",
 
     )
 
@@ -254,16 +265,16 @@ def exinf():
     "\nLIST of EXTRAS\n",
 
     "\nEXTRA 1: Encoder",
-    "\nDescription: \n",
+    "\nDescription: encodes a number into a specific cipher's formula. useless unless modified.\n",
 
     "\nEXTRA 2: Binary",
-    "\nDescription: \n",
+    "\nDescription: converts numbers into binary. useful in itps.\n",
 
     "\nEXTRA 3: Char filter test program",
-    "\nDescription: \n",
+    "\nDescription: a test program for developing the filter feature of this compiler.\n",
 
     "\nEXTRA 4: Char filter",
-    "\nDescription: \n",
+    "\nDescription: the final product of the filter feature.\n",
     )
 
 def help():
@@ -272,15 +283,15 @@ def help():
 
     "\nACTIVITIES (1-25)",
     "\ntype 'act(number)' to access any specific activities.",
-    "\ntype 'act info' for more info.\n",
+    "\ntype 'act info' or '1' for more info.\n",
 
     "\nCODE CHALLENGES (1-16)",
     "\ntype 'cc(number)' to access any specific code challenges.",
-    "\ntype 'cc info' for more info.\n",
+    "\ntype 'cc info' or '2' for more info.\n",
 
     "\nEXTRAS (1-4)",
     "\ntype 'ex(number)' to access any specific extras.",
-    "\ntype 'ex info' for more info.\n",
+    "\ntype 'ex info' or '3' for more info.\n",
 
     "\nSETTINGS",
     "\nmaybe you want to return to menu? (why would you?), type 'menu' if so."
@@ -310,13 +321,13 @@ while program:
     elif action.lower()=="menu":
         os.system('cls')
         menuinf()
-    elif action.lower()=="cc info":
+    elif action.lower()=="cc info" or action =="2":
         os.system('cls')
         ccinf()
-    elif action.lower()=="act info":
+    elif action.lower()=="act info" or action =="1":
         os.system('cls')
         actinf()
-    elif action.lower()=="ex info":
+    elif action.lower()=="ex info" or action =="3":
         os.system('cls')
         exinf()
 

@@ -8,8 +8,8 @@ def act():
         num = num.lower().replace(filterer,'')
     for converter in num:
         echo= echo.lower().replace(converter,'')
-        if echo == "":
-            echo="0"
+    if echo == "":
+        echo="0"
     num=int(echo)
     """END OF THE FILTER CODE THAT IM VERY PROUD TO HAVE MADE"""
     for x in range(0,num):

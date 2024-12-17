@@ -19,8 +19,8 @@ def act():
     gold = gold.lower().replace(filterer,'')
    for converter in gold:
     echo= echo.lower().replace(converter,'')
-    if echo == "":
-     echo="0"
+   if echo == "":
+    echo="0"
    gold=int(echo)
    """END OF THE FILTER CODE THAT IM VERY PROUD TO HAVE MADE"""
 

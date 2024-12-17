@@ -8,8 +8,8 @@ def f( ):
         example = example.lower().replace(filterer,'')
     for converter in example:
         echo= echo.lower().replace(converter,'')
-        if echo == "":
-            echo="0"
+    if echo == "":
+        echo="0"
     example=float(echo)
     print(example)
 
@@ -21,8 +21,8 @@ def f( ):
 #    example = example.lower().replace(filterer,'')
 #for converter in example:
 #    echo= echo.lower().replace(converter,'')
-#    if echo == "":
-#        echo="0"
+#if echo == "":
+#    echo="0"
 #example=int(echo)
 #"""END OF THE FILTER CODE THAT IM VERY PROUD TO HAVE MADE"""
 #

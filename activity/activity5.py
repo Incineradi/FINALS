@@ -10,8 +10,8 @@ def act():
         f = f.lower().replace(filterer,'')
     for converter in f:
         echo= echo.lower().replace(converter,'')
-        if echo == "":
-            echo="0"
+    if echo == "":
+        echo="0"
     f=int(echo)
     """END OF THE FILTER CODE THAT IM VERY PROUD TO HAVE MADE"""
     c= (f-32)*5/9

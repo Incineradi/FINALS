@@ -29,28 +29,34 @@ def cc():
         project = project.lower().replace(filterer,'')
     for converter in prelim:
         echo= echo.lower().replace(converter,'')
-        if echo == "":
-            echo="0"
+
     for converter in midterm:
         echo1= echo1.lower().replace(converter,'')
-        if echo1 == "":
-            echo1="0"
+
     for converter in semi:
         echo2= echo2.lower().replace(converter,'')
-        if echo2 == "":
-            echo2="0"
+
     for converter in final:
         echo3= echo3.lower().replace(converter,'')
-        if echo3 == "":
-            echo3="0"
+
     for converter in quiz:
         echo4= echo4.lower().replace(converter,'')
-        if echo4 == "":
-            echo4="0"
+
     for converter in project:
         echo5= echo5.lower().replace(converter,'')
-        if echo5 == "":
-            echo5="0"
+    if echo == "":
+        echo="0"
+    if echo1 == "":
+        echo1="0"
+    if echo2 == "":
+        echo2="0"
+    if echo3 == "":
+        echo3="0"
+    if echo4 == "":
+        echo4="0"
+    if echo5 == "":
+        echo5="0"
+
 
     prelim=int(echo)
     midterm=int(echo1)
@@ -69,14 +75,14 @@ def cc():
 
     else:
         grade = (prelim*0.15)+(midterm*0.15)+(semi*0.15)+(final*0.15)+(quiz*0.25)+(project*0.15)
-    #just incase
-    if grade > 100 or grade < 70:
-        print("\ninvalid numbers.")
-    
-    elif grade == 100:
-        print("you're lying.")
-    elif grade > 74:
-        print(f"\ncongratulations {name}. you passed the subject with a total grade of {round(grade,0)}.")
+        #just incase
+        if grade > 100 or grade < 70:
+            print("\ninvalid numbers.")
+        
+        elif grade == 100:
+            print("you're lying.")
+        elif grade > 74:
+            print(f"\ncongratulations {name}. you passed the subject with a total grade of {round(grade,0)}.")
 
-    else:
-        print(f"\n{round(grade,0)}??????? you failed bruh what the hell")
+        else:
+            print(f"\n{round(grade,0)}??????? you failed bruh what the hell")

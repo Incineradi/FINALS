@@ -52,8 +52,8 @@ def cc():
             dep = dep.lower().replace(filterer,'')
         for converter in dep:
             echo= echo.lower().replace(converter,'')
-            if echo == "":
-                echo="0"
+        if echo == "":
+            echo="0"
         dep=int(echo)
         """END OF THE FILTER CODE THAT IM VERY PROUD TO HAVE MADE"""
 
@@ -98,8 +98,8 @@ def cc():
                         withdraw = withdraw.lower().replace(filterer,'')
                     for converter in withdraw:
                         echo= echo.lower().replace(converter,'')
-                        if echo == "":
-                            echo="0"
+                    if echo == "":
+                        echo="0"
                     withdraw=int(echo)
                     """END OF THE FILTER CODE THAT IM VERY PROUD TO HAVE MADE"""
 
@@ -123,8 +123,8 @@ def cc():
                     add = add.lower().replace(filterer,'')
                 for converter in add:
                     echo= echo.lower().replace(converter,'')
-                    if echo == "":
-                        echo="0"
+                if echo == "":
+                    echo="0"
                 dep+=int(echo)
                 """END OF THE FILTER CODE THAT IM VERY PROUD TO HAVE MADE"""
 

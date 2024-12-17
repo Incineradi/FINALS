@@ -13,12 +13,14 @@ def cc():
         num2 = num2.lower().replace(filterer,'')
     for converter in num1:
         echo= echo.lower().replace(converter,'')
-        if echo == "":
-            echo="0"
+
     for converter in num2:
         echo1= echo1.lower().replace(converter,'')
-        if echo1 == "":
-            echo1="0"
+    if echo == "":
+        echo="0"
+    if echo1 == "":
+        echo1="0"
+
     num1=int(echo)
     num2=int(echo1)
     """END OF THE FILTER CODE THAT IM VERY PROUD TO HAVE MADE"""

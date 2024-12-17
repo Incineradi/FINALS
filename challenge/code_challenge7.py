@@ -12,11 +12,11 @@ def cc():
   echo=age
   keep= "1234567890"
   for filterer in keep.lower(): 
-      age = age.lower().replace(filterer,'')
+    age = age.lower().replace(filterer,'')
   for converter in age:
-      echo= echo.lower().replace(converter,'')
-      if echo == "":
-          echo="0"
+    echo= echo.lower().replace(converter,'')
+  if echo == "":
+    echo="0"
   age=int(echo)
   """END OF THE FILTER CODE THAT IM VERY PROUD TO HAVE MADE"""
   ################################################################
@@ -49,8 +49,8 @@ def cc():
       amount = amount.lower().replace(filterer,'')
     for converter in amount:
       echo= echo.lower().replace(converter,'')
-      if echo == "":
-        echo="0"
+    if echo == "":
+      echo="0"
     amount=int(echo)
     """END OF THE FILTER CODE THAT IM VERY PROUD TO HAVE MADE"""
 

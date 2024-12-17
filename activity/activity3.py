@@ -2,7 +2,7 @@ def act():
  print("INFO: activity3 is a biodata simulation program, similar to code_challenge3. \n",
        "please input the appropriate datas, as there will be a twist in the end for no absolute reason.\n")
  print("this program is really long and annoying. if you wish to quit, type 0. otherwise, type enter.")
- 
+
  annoying=input("")
  if annoying == "0":
   print("so relatable")
@@ -68,24 +68,28 @@ def act():
       bedtime = bedtime.lower().replace(filterer,'')
   for converter in num:
       echo= echo.lower().replace(converter,'')
-      if echo == "":
-        echo="0"
+      
   for converter in age:
       echo1= echo1.lower().replace(converter,'')
-      if echo1 == "":
-        echo1="0"
+
   for converter in stretch:
       echo2= echo2.lower().replace(converter,'')
-      if echo2 == "":
-        echo2="0"
+
   for converter in hometime:
       echo3= echo3.lower().replace(converter,'')
-      if echo3 == "":
-        echo3="0"
+
   for converter in bedtime:
       echo4= echo4.lower().replace(converter,'')
-      if echo4 == "":
-        echo4="0"
+  if echo == "":
+    echo="0"
+  if echo1 == "":
+    echo1="0"
+  if echo2 == "":
+    echo2="0"
+  if echo3 == "":
+    echo3="0"
+  if echo4 == "":
+    echo4="0"
 
   num=int(echo)
   age=int(echo1)

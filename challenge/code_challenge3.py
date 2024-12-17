@@ -68,24 +68,28 @@ def cc():
       bedtime = bedtime.lower().replace(filterer,'')
   for converter in num:
       echo= echo.lower().replace(converter,'')
-      if echo == "":
-        echo="0"
+      
   for converter in age:
       echo1= echo1.lower().replace(converter,'')
-      if echo1 == "":
-        echo1="0"
+
   for converter in stretch:
       echo2= echo2.lower().replace(converter,'')
-      if echo2 == "":
-        echo2="0"
+
   for converter in hometime:
       echo3= echo3.lower().replace(converter,'')
-      if echo3 == "":
-        echo3="0"
+
   for converter in bedtime:
       echo4= echo4.lower().replace(converter,'')
-      if echo4 == "":
-        echo4="0"
+  if echo == "":
+    echo="0"
+  if echo1 == "":
+    echo1="0"
+  if echo2 == "":
+    echo2="0"
+  if echo3 == "":
+    echo3="0"
+  if echo4 == "":
+    echo4="0"
 
   num=int(echo)
   age=int(echo1)

@@ -12,8 +12,8 @@ def cc():
             q = q.lower().replace(filterer,'')
         for converter in q:
             echo= echo.lower().replace(converter,'')
-            if echo == "":
-                echo="0"
+        if echo == "":
+            echo="0"
         q=int(echo)
         """END OF THE FILTER CODE THAT IM VERY PROUD TO HAVE MADE"""
         num += q

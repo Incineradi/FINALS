@@ -13,8 +13,8 @@ def cc():
             get = get.lower().replace(filterer,'')
         for converter in get:
             echo= echo.lower().replace(converter,'')
-            if echo == "":
-                echo="0"
+        if echo == "":
+            echo="0"
         get=int(echo)
         """END OF THE FILTER CODE THAT IM VERY PROUD TO HAVE MADE"""
         num += get
