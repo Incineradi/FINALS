@@ -10,7 +10,7 @@ def f( ):
         echo= echo.lower().replace(converter,'')
         if echo == "":
             echo="0"
-    example=int(echo)
+    example=float(echo)
     print(example)
 
 #example="asf123"

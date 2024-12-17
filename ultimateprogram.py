@@ -61,13 +61,33 @@ def end():
     print("simulation ended.")
 ##for calling
 def ccn(c):
-    print(f"successfully imported code_challenge{c.lower().replace('c','')}")
+    print(f"successfully imported code_challenge{c.lower().replace('c','')}\n")
 
 def actn(c):
-    print(f"successfully imported activity{c.lower().replace('act','')}")
+    print(f"successfully imported activity{c.lower().replace('act','')}\n")
 
 def exn(c):
-    print(f"successfully imported extras{c.lower().replace('ex','')}")
+    print(f"successfully imported extras{c.lower().replace('ex','')}\n")
+
+def intnotice():
+    print(
+    "\nNOTICE:\n",
+
+    "\nit seems that this program contains a variable that asks for an INTEGER(or float) as an input. keep in mind that:\n",
+    "\n -the program will detect and ignore special characters when doing so.",
+    "\n if the user inputs 'asd123f' in an integer exclusive input, the output will be '123'.\n",
+
+
+    "\n -if an input asks for an integer, '12.0' will convert into '120' because '.' is a special character.",
+    "\n keep in mind this filter does not apply if the program is asking for a float number.\n",
+
+    "\n -if the input is left empty, the program will detect it and replace it with 0.",
+
+
+    )
+    click=input("\npress enter to continue: \n")
+    os.system('cls')
+
 
 
 def actinf():
@@ -284,6 +304,7 @@ while program:
 
     elif action.lower()=="cc3":
         os.system('cls')
+        intnotice()
         ccn(action)
         cc3()
 
@@ -291,6 +312,7 @@ while program:
         
     elif action.lower()=="cc4":
         os.system('cls')
+        intnotice()
         ccn(action)
         cc4()
 
@@ -298,6 +320,7 @@ while program:
         
     elif action.lower()=="cc5":
         os.system('cls')
+        intnotice()
         ccn(action)
         cc5()
 
@@ -305,6 +328,7 @@ while program:
         
     elif action.lower()=="cc6":
         os.system('cls')
+        intnotice()
         ccn(action)
         cc6()
 
@@ -312,6 +336,7 @@ while program:
         
     elif action.lower()=="cc7":
         os.system('cls')
+        intnotice()
         ccn(action)
         cc7()
 
@@ -319,6 +344,7 @@ while program:
         
     elif action.lower()=="cc8":
         os.system('cls')
+        intnotice()
         ccn(action)
         cc8()
 
@@ -326,6 +352,7 @@ while program:
         
     elif action.lower()=="cc9":
         os.system('cls')
+        intnotice()
         ccn(action)
         cc9()
 
@@ -333,6 +360,7 @@ while program:
         
     elif action.lower()=="cc10":
         os.system('cls')
+        intnotice()
         ccn(action)
         cc10()
 
@@ -340,6 +368,7 @@ while program:
         
     elif action.lower()=="cc11":
         os.system('cls')
+        intnotice()
         ccn(action)
         cc11()
 
@@ -354,6 +383,7 @@ while program:
         
     elif action.lower()=="cc13":
         os.system('cls')
+        intnotice()
         ccn(action)
         cc13()
 
@@ -361,6 +391,7 @@ while program:
         
     elif action.lower()=="cc14":
         os.system('cls')
+        intnotice()
         ccn(action)
         cc14()
 
@@ -368,6 +399,7 @@ while program:
         
     elif action.lower()=="cc15":
         os.system('cls')
+        intnotice()
         ccn(action)
         cc15()
 
@@ -375,6 +407,7 @@ while program:
         
     elif action.lower()=="cc16":
         os.system('cls')
+        intnotice()
         ccn(action)
         cc16()
 
@@ -389,24 +422,28 @@ while program:
         end()
     elif action.lower()=="act2":
         os.system('cls')
+        intnotice()
         actn(action)
         act2()
 
         end()
     elif action.lower()=="act3":
         os.system('cls')
+        intnotice()
         actn(action)
         act3()
 
         end()
     elif action.lower()=="act4":
         os.system('cls')
+        intnotice()
         actn(action)
         act4()
 
         end()
     elif action.lower()=="act5":
         os.system('cls')
+        intnotice()
         actn(action)
         act5()
 
@@ -419,6 +456,7 @@ while program:
         end()
     elif action.lower()=="act7":
         os.system('cls')
+        intnotice()
         actn(action)
         act7()
 
@@ -431,12 +469,14 @@ while program:
         end()
     elif action.lower()=="act9":
         os.system('cls')
+        intnotice()
         actn(action)
         act9()
 
         end()
     elif action.lower()=="act10":
         os.system('cls')
+        intnotice()
         actn(action)
         act10()
 
@@ -449,6 +489,7 @@ while program:
         end()
     elif action.lower()=="act12":
         os.system('cls')
+        intnotice()
         actn(action)
         act12()
 
@@ -473,12 +514,14 @@ while program:
         end()
     elif action.lower()=="act16":
         os.system('cls')
+        intnotice()
         actn(action)
         act16()
 
         end()
     elif action.lower()=="act17":
         os.system('cls')
+        intnotice()
         actn(action)
         act17()
 
@@ -491,6 +534,7 @@ while program:
         end()
     elif action.lower()=="act19":
         os.system('cls')
+        intnotice()
         actn(action)
         act19()
 
@@ -535,12 +579,14 @@ while program:
         end()
     elif action.lower()=="ex1":
         os.system('cls')
+        intnotice()
         exn(action)
         encoder()
 
         end()
     elif action.lower()=="ex2":
         os.system('cls')
+        intnotice()
         exn(action)
         binary()
 

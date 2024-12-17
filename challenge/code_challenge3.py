@@ -1,6 +1,8 @@
 def cc():
- print("INFO: code_challenge3 is a biodata simulation program, similar to activity3. please input the appropriate datas, and if asked for an integer, remember to only type numbers with no special characters, as there will be a twist in the end for no absolute reason.\n")
+ print("INFO: activity3 is a biodata simulation program, similar to code_challenge3. \n",
+       "please input the appropriate datas, as there will be a twist in the end for no absolute reason.\n")
  print("this program is really long and annoying. if you wish to quit, type 0. otherwise, type enter.")
+ 
  annoying=input("")
  if annoying == "0":
   print("so relatable")
